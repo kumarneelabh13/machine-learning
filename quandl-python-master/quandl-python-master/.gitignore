@@ -1,0 +1,10 @@
+*.pyc
+
+/.tox/
+/.eggs
+/quandl.egg-info
+/build
+/dist
+/tmp/
+.idea/*
+venv

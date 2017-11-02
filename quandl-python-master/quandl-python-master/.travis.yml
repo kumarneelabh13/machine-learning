@@ -1,0 +1,14 @@
+sudo: false
+language: python
+python:
+  - "2.7"
+  - "3.3"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+install:
+  - pip install flake8
+script:
+  - flake8
+  - python -W always setup.py -q test
+cache: pip
